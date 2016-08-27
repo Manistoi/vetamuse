@@ -1,0 +1,89 @@
+body {
+	background-color: #232323;
+	margin: 0;
+}
+
+.square {
+	width: 30%;
+	padding-bottom: 23%;
+	float: left;
+	margin: 1.66%; 
+	border-radius: 15%;
+	transition: background 0.8s;
+	-webkit-transition: background 0.8s;
+	-moz-transition: background 0.8s;
+}
+
+#container {
+	padding-top: 20px;
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+h1 {
+	font-family: Open Sans;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+	background: lightseagreen;
+	padding: 20px 0;
+	text-transform: uppercase;
+	line-height: 1.1;
+}
+
+#colorDisplay {
+	font-size: 150%;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+#message {
+	position: absolute;
+	left: 45%;
+	top: 27.9%;
+	color: black;
+	font-family: Open Sans;
+	font-size: 13px;
+}
+
+button {
+	color: lightseagreen;
+	font-family: Open Sans;
+	font-size: 13px;
+	border: none;
+	height: 100%;
+	background: white;
+	text-transform: uppercase;
+	outline: none;
+	position: fixed;
+	left: 64%;
+	height: 30px;
+}
+
+#easyBtn {
+	left: 67.55%;
+}
+
+.selected {
+	background: lightseagreen;
+	color: white;
+}
+
+.hover1 {
+	background: lightseagreen;
+	color: white;
+}
+
+#reset {
+	font-family: Open Sans;
+	font-size: 13px;
+	position: fixed;
+	height: 30px;
+	left: 29%;
+
+}

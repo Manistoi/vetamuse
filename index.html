@@ -1,63 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 	<title>My First Bootstrap Project!</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="vetamuse.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="bootstrap.css" rel="stylesheet" type="text/css" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="vetamuse.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
 </head>
+<body><!-- navbar begings -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+                <div class="navbar-header"><button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-nav-demo" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span></button>
+                <a class="navbar-brand" href="#"><i class="fa fa-code" aria-hidden="true"></i>Manuel Stoilov</a>
+                </div>
+    
+            <div class="collapse navbar-collapse" id="bs-nav-demo">
+                <ul class="nav navbar-nav navbar-right">
+                	<li><a href="#">Home |</a></li>
+                	<li><a href="#">About |</a></li>
+                	<li><a href="#">Contact |</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- jumbotron inside container-->
+    
+    <div class="container">
+        <div class="jumbotron">
+            <h1 id="jumboH1">My Portfolio</h1>
+            <p>HTML, CSS, JS, nodeJS, MongoDB, Express</p>
+        </div>
 
-<body>
-<!-- navbar begings -->
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-					<a href="#" class="navbar-brand"><i class="fa fa-code" aria-hidden="true"></i> Manuel Stoilov</a>
-			</div>
-			<div class="collapse navbar-collapse" id="bs-nav-demo">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Home |</a></li>
-					<li><a href="#">About |</a></li>
-					<li><a href="#">Contact |</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-<!-- jumbotron inside container-->
-	<div class="container">
-		<div class="jumbotron">
-		   <h1 id="jumboH1"><i class="fa fa-hand-spock-o"></i>My Portfolio</h1>
-		  <p>HTML, CSS, JS, nodeJS, MongoDB, Express</p>
-		</div>
-	
-	
-		<div class="row">
-			<div class="col-lg-6 col-md-6 col-md-6">
-				<a href="http://vetamuse.com/hikester"><img src="myPics/bootstrap1.jpg"></a>
-			</div>
-			<div class="col-lg-6 col-md-6">
-				<h1 id="hikesterh1">Hikester</h1>
-				<hr>
-				<ul id="hikesterul">
-					<li>Fully Responsive Design</li>
-					<li>Made using Bootstrap</li>
-					<li>Incorporated "font awesome" for icons</li>
-				</ul>
-			</div>
-		</div>
-		
-	</div>
-	
-<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-md-6"><a href="hikester.html"><img src="hikester.jpg" /></a></div>
+            <div class="col-lg-6 col-md-6">
+                <h1 id="hikesterh1">Hikester</h1>
+                <hr>
+                <ul id="hikesterul">
+                	<li>Fully Responsive Design</li>
+                	<li>Made using Bootstrap</li>
+                	<li>Incorporated font awesome for icons</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-md-6">
+                <a href="rgbGame.html"><img src="rgbgame.jpg"/></a>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <h1 id="hikesterh1">rgbGame</h1>
+                <hr>
+                <ul id="hikesterul">
+                    <li>Utilizes DOM Manipulation and Event Handling</li>
+                    <li>Responsive Design</li>
+                    <li>Made using HTML, CSS, Javascript</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
-
 </html>
