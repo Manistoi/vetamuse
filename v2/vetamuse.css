@@ -1,0 +1,87 @@
+body {
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+			width: 100%;
+			border: 1px solid silver;
+			padding: 4px;
+			height: 340px;
+			margin-bottom: 15px;
+}
+
+#uppermostDiv {
+	color: #2c3e50;
+	background-color: #ecf0f1;
+	height: 85vh;
+	margin-bottom: 55px;
+}
+
+hr {
+	border-top: 1px solid #95a1aa;
+} 
+
+#picId {
+	height: 65%;
+    width: 90%
+}
+
+#roundPic {
+	width: 18%;
+    height: 58%;
+    position: relative;
+    top: -180px;
+    left: 75%;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr {
+   line-height: 25px;
+   min-height: 25px;
+   height: 25px;
+}
+
+.navbar-inverse {
+	background: white;
+	margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #95a1aa;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #95a1aa;
+}
+
+#jumboH1 {
+	font-size: 80px;
+	margin-bottom: 15px;
+}
+
+#hikesterh1 {
+	font-size: 55px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#hikesterul {
+	font-size: 18px;
+	padding-left: 135px;
+	text-align: left;
+}
+
+.content {
+    color: #3d4247;
+    width: 51%;
+    position: relative;
+    top: 85px;
+    left: 115px;
+}
+
+.fa {
+	margin-right: 8px;
+}
