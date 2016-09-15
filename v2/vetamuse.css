@@ -4,13 +4,22 @@ body {
 }
 
 img {
-			width: 100%;
-			border: 1px solid silver;
-			padding: 4px;
-			height: 340px;
-			margin-bottom: 15px;
+	width: 100%;
+	border: 1px solid silver;
+	padding: 4px;
+	height: 340px;
+	margin-bottom: 15px;
 }
 
+#logosImg {
+	width: 100px;
+	height: 100px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+	padding: 2px;
+}
 
 #frontUpperDiv {
 	color: #2c3e50;
@@ -22,8 +31,7 @@ img {
 #uppermostDiv {
 	color: #2c3e50;
 	background-color: #ecf0f1;
-	height: 85vh;
-	margin-bottom: 55px;
+	height: 115vh;
 }
 
 #frontBtn {
@@ -36,20 +44,15 @@ img {
 }
 
 hr {
-	border-top: 1px solid #95a1aa;
+	border-top: 1px solid black;
 } 
-
-#picId {
-	height: 65%;
-    width: 90%
-}
 
 #roundPic {
 	width: 18%;
     height: 58%;
     position: relative;
-    top: -180px;
-    left: 75%;
+    top: -340px;
+    left: 25.2%;
     border-radius: 50%;
     border: 1px solid black;
     padding: 5px;
