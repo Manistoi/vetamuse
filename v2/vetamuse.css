@@ -112,6 +112,21 @@ tr {
     font-family: 'Roboto Mono', monospace;
 }
 
+.content4 {
+    color: #3d4247;
+    width: 58%;
+    position: relative;
+    top: 105px;
+    left: 22.5%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#jumboH2 {
+	font-size: 37px;
+	margin-bottom: 15px;
+	padding-left: 30%;
+}
+
 #frontH4 {
 	padding-left: 30%;	
 }
