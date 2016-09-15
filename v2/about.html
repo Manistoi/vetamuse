@@ -1,66 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<title>My First Bootstrap Project!</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /> <!-- the metadata tag gives data about data (i.e. your website)-->
+	<title>Welcome to Vetamuse.com!</title>
 	<link href="bootstrap2.css" rel="stylesheet" type="text/css" />
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 	<link href="vetamuse.css" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 </head>
 <body><!-- navbar begings -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-<div class="container">
-<div class="navbar-header"><button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-nav-demo" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span></button><a class="navbar-brand" href="#">Manuel Stoilov</a></div>
-
-<div class="collapse navbar-collapse" id="bs-nav-demo">
-<ul class="nav navbar-nav navbar-right">
-	<li><a href="http://vetamuse.com">Home |</a></li>
-	<li><a href="about.html">About |</a></li>
-	<li><a href="contact.html">Contact |</a></li>
-</ul>
-</div>
-</div>
-</nav>
-<!-- jumbotron inside container-->
-
-<div id="uppermostDiv">
-    <div class="content">
-        <h1 id="jumboH1">Manuel Stoilov</h1>
-        <h4>Front-end developer</h4>
-        <hr>
-        <p><strong>Welcome!</strong>
-        <br>
-        <p>My name is Manuel, and I am (primarily) a front-end web developer. 
-        I started on my programming journey over a year ago by first diving into Python. After finishing the "Learn Python the Hard Way" course, I 
-        delved into Harvard's online CS50 course, which I found fascinating! From there, I transitioned into web development. I started off by learning
-        HTML and CSS, then moved onto Javascript and jQuery. Currently, I am expanding my front-end skillset, while learning full-stack development (MEAN stack). </p>
-        <p id="aboutParagraph">
-            A bit more about me and my background - I was born in Bulgaria, but raised in the States. After graduating from Florida Atlantic University in May 2015, I traveled
-            abroad to southeastern Asia where I spent about 6 months working and traveling. Although my degree is in Biosciences, I have always had a passion for tech. Stumbling
-            upon programming around the end of 2015, I felt that I had found my niche.
-        </p>
-        <div class="contentAbout">
-            <div class="logoAbout">
-                <img id="logosImg" src="myPics/HTML5.png">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-nav-demo" data-toggle="collapse" type="button">
+                    <span class="sr-only">Toggle navigation</span>
+                </button>
+                <a class="navbar-brand" href="#">Manuel Stoilov</a>
             </div>
-            <div class="logoAbout">
-                <img id="logosImg" src="myPics/CSS3.jpg">
-            </div>
-            <div class="logoAbout">
-                <img id="logosImg" src="myPics/Javascript.png">
-            </div>
-            <div class="logoAbout">
-                <img id="logosImg" src="myPics/jQuery.png">
+            
+            <div class="collapse navbar-collapse" id="bs-nav-demo">
+                <ul class="nav navbar-nav navbar-right">
+                	<li><a href="http://vetamuse.com">Home |</a></li>
+                	<li><a href="about.html">About |</a></li>
+                	<li><a href="contact.html">Contact |</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-    <div>
-        <img id="roundPic" src="myPics/pic8.jpg">
-    </div>
-</div>
+    </nav>
 
+    <div id="uppermostDiv">
+        <div class="content">
+            <h1 id="jumboH1">Manuel Stoilov</h1>
+            <h4>Front-end developer</h4>
+            <hr>
+            <p><strong>Welcome!</strong></p>
+            <br>
+            <p>
+                My name is Manuel, and I am (primarily) a front-end web developer. 
+                I started on my programming journey over a year ago by first diving into Python. After finishing the "Learn Python the Hard Way" course, I 
+                delved into Harvard's online CS50 course, which I found fascinating! From there, I transitioned into web development. I started off by learning
+                HTML and CSS, then moved onto Javascript and jQuery. Currently, I am expanding my front-end skillset, while learning full-stack development (MEAN stack). 
+            </p>
+            <p id="aboutParagraph">
+                A bit more about me and my background - I was born in Bulgaria, but raised in the States. After graduating from Florida Atlantic University in May 2015, I traveled
+                abroad to southeastern Asia where I spent about 6 months working and traveling. Although my degree is in Biosciences, I have always had a passion for tech. Stumbling
+                upon programming around the end of 2015, I felt that I had found my niche.
+            </p>
+            <div class="contentAbout">
+                <div class="logoAbout">
+                    <img id="logosImg" src="myPics/HTML5.png">
+                </div>
+                <div class="logoAbout">
+                    <img id="logosImg" src="myPics/CSS3.jpg">
+                </div>
+                <div class="logoAbout">
+                    <img id="logosImg" src="myPics/Javascript.png">
+                </div>
+                <div class="logoAbout">
+                    <img id="logosImg" src="myPics/jQuery.png">
+                </div>
+            </div>
+        </div>
+        <div>
+            <img id="roundPic" src="myPics/pic8.jpg">
+        </div>
+    </div>
 
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script><!-- jQuery is necessary for Bootstrap -->
 </body>
-<script src="https://code.jquery.com/jquery-2.1.4.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script></body>
 </html>
