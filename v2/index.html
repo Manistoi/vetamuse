@@ -1,52 +1,55 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<title>My First Bootstrap Project!</title>
+<html lang="en-US"> <!-- Specifies that the document is in English (country code: United States); Used for screen readers and search engines-->
+<head> 
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /> <!-- the metadata tag gives data about data (i.e. your website)-->
+	<title>Welcome to Vetamuse.com!</title>
 	<link href="bootstrap2.css" rel="stylesheet" type="text/css" />
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 	<link href="vetamuse.css" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 </head>
-<body><!-- navbar begings -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-<div class="container">
-<div class="navbar-header"><button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-nav-demo" data-toggle="collapse" type="button">
-    <span class="sr-only">Toggle navigation</span>
-    </button><a class="navbar-brand" href="#">Manuel Stoilov</a>
-</div>
 
-<div class="collapse navbar-collapse" id="bs-nav-demo">
-<ul class="nav navbar-nav navbar-right">
-	<li><a href="http://vetamuse.com">Home |</a></li>
-	<li><a href="about.html">About |</a></li>
-	<li><a href="contact.html">Contact |</a></li>
-</ul>
-</div>
-</div>
-</nav>
-<!-- jumbotron inside container-->
+<body>
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top"><!-- navbar begings -->
+        <div class="container">
+            <div class="navbar-header"><button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-nav-demo" data-toggle="collapse" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                </button><a class="navbar-brand" href="#">Manuel Stoilov</a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-nav-demo">
+                <ul class="nav navbar-nav navbar-right">
+                	<li><a href="http://vetamuse.com">Home |</a></li>
+                	<li><a href="about.html">About |</a></li>
+                	<li><a href="contact.html">Contact |</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<div id="frontUpperDiv">
-    <div class="content2">
-        <h1 id="jumboH1"><strong>Responsive Front-end Development</strong></h1>
-        <h4 id="frontH4">HTML · CSS · JavaScript</h4>
-        <hr>
-        <button class="btn btn-primary btn-lg" id="frontBtn">View Portfolio</button>
+    <div id="frontUpperDiv">
+        <div class="content2">
+            <h1 id="jumboH1"><strong>Responsive Front-end Development</strong></h1>
+            <h4 id="frontH4">HTML · CSS · JavaScript</h4> <!-- The dot between words is called an interpunct (multiply in math) -->
+            <hr>
+            <a class="btn btn-primary btn-lg" id="frontBtn" href="#hikesterh1">View Portfolio</a>
+        </div>
+        <div id="space"> <!-- Stars animation -->
+          <div class="stars"></div>
+          <div class="stars"></div>
+          <div class="stars"></div>
+          <div class="stars"></div>
+          <div class="stars"></div>
+        </div>
     </div>
-    <div id="space">
-      <div class="stars"></div>
-      <div class="stars"></div>
-      <div class="stars"></div>
-      <div class="stars"></div>
-      <div class="stars"></div>
-    </div>
-</div>
     
     <div class="container">
         <div class="row" id="hikesterh1">
-            <div class="col-lg-6 col-md-6 col-md-6"><a href="https://ancient-hollows-22789.herokuapp.com/"><img src="myPics/yelpcamp.jpg" /></a></div>
+            <div class="col-lg-6 col-md-6 col-md-6"><a href="https://ancient-hollows-22789.herokuapp.com/">
+                <img alt="A campfire with a title that reads 'Welcome to Yelpcamp'" src="myPics/yelpcamp.jpg" /></a>
+            </div>
         
             <div class="col-lg-6 col-md-6">
                 <h1>YelpCamp</h1>
@@ -60,53 +63,59 @@
                 	<li>Flash alerts for alerts and express-session for sessions</li>
                 </ul>
             </div>
-    </div>
-
-    <hr />
-    <div class="row" id="hikesterh1">
-        <div class="col-lg-6 col-md-6 col-md-6"><a href="hikester.html"><img src="myPics/hikester.jpg" /></a></div>
+        </div><!-- Yelpcamp row ends-->
     
-        <div class="col-lg-6 col-md-6">
-            <h1 id="hikesterh1">Hikester</h1>
-            
-            <hr />
-            <ul id="hikesterul">
-            	<li>Fully Responsive Design</li>
-            	<li>Made using HTML, CSS, and Bootstrap</li>
-            </ul>
+        <hr>
+        
+        <div class="row" id="hikesterh1">
+            <div class="col-lg-6 col-md-6 col-md-6"><a href="hikester.html">
+                <img alt="A group of people watching the sunset on a hilltop" src="myPics/hikester.jpg" /></a>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <h1 id="hikesterh1">Hikester</h1>
+                <hr />
+                <ul id="hikesterul">
+                	<li>Fully Responsive Design</li>
+                	<li>Made using HTML, CSS, and Bootstrap</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row" id="hikesterh1">
+            <div class="col-lg-6 col-md-6 col-md-6">
+                <a href="bootstrap2.html">
+                    <img alt="A website with an elephant, pink flower, and yellow flower pictures. The title reads 'The Image Gallery'" src="myPics/bootstrap2.jpg" />
+                </a>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <h1>Picture Portfolio</h1>
+                <hr>
+                <ul id="hikesterul">
+                	<li>Fully responsive design</li>
+                	<li>HTML, CSS, Bootstrap</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-md-6">
+                <a alt="A picture of six colorful rectangles. The title reads 'The Great RGB Guessing Game'" href="rgbGame.html">
+                    <img src="myPics/rgbgame.jpg" />
+                </a>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <h1 id="hikesterh1">rgbGame</h1>
+                <hr>
+                <ul id="hikesterul">
+                	<li>Utilizes DOM Manipulation and Event Handling</li>
+                	<li>Responsive Design</li>
+                	<li>Made using HTML, CSS, Javascript</li>
+                </ul>
+            </div>
         </div>
     </div>
 
-<hr />
-<div class="row" id="hikesterh1">
-<div class="col-lg-6 col-md-6 col-md-6"><a href="bootstrap2.html"><img src="myPics/bootstrap2.jpg" /></a></div>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
 
-<div class="col-lg-6 col-md-6">
-<h1>Picture Portfolio</h1>
-
-<hr />
-<ul id="hikesterul">
-	<li>Fully responsive design</li>
-	<li>HTML, CSS, Bootstrap</li>
-</ul>
-</div>
-</div>
-
-<hr />
-<div class="row">
-<div class="col-lg-6 col-md-6 col-md-6"><a href="rgbGame.html"><img src="myPics/rgbgame.jpg" /></a></div>
-
-<div class="col-lg-6 col-md-6">
-<h1 id="hikesterh1">rgbGame</h1>
-
-<hr />
-<ul id="hikesterul">
-	<li>Utilizes DOM Manipulation and Event Handling</li>
-	<li>Responsive Design</li>
-	<li>Made using HTML, CSS, Javascript</li>
-</ul>
-</div>
-</div>
-</div>
-<script src="https://code.jquery.com/jquery-2.1.4.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script></body>
 </html>
