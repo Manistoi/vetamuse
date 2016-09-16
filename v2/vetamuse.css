@@ -1,55 +1,145 @@
+/* ----------------------------------------------*/
+/* -----------ALL HTML DOCS----------------------*/
+/* ----------------------------------------------*/
+
+/* Encompases all html docs*/
 body {
 	padding-top: 30px;
-    font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace; /* from Google fonts */
 }
 
-img {
+/* Refers to navbar that is present in index.html, about.html, contact.html */
+.navbar-inverse {
+	background: white;
+	margin-bottom: 0;
+}
+
+/* anchor tags within li's within the navbar */
+.navbar-inverse .navbar-nav,
+li,
+a {
+	color: #95a1aa;
+}
+
+/* Navbar logo (left side) */
+.navbar-inverse,
+.navbar-brand {
+	color: #95a1aa;
+}
+
+/* Horizontal rule */
+hr {
+	border-top: 1px solid black;
+} 
+
+/* ----------------------------------------------*/
+/* --------------Index.html----------------------*/
+/* ----------------------------------------------*/
+
+/* Div that contains front page (index.html) content and stars animation */
+#indexDiv1 {
+	color: #2c3e50;
+	background-color: #ecf0f1;
+	height: 85vh; /* 1vh = 1% of browser window height */
+	margin-bottom: 55px;
+}
+
+  /* content that frontUpperDiv encompasses except for the stars animation part */
+  .content1 {
+      color: #3d4247;
+      width: 58%;
+      position: relative;
+      top: 105px;
+      left: 22.5%;
+      font-family: 'Roboto Mono', monospace;
+  }
+    
+    /* h1 within content2 */
+    #h1Title {
+  	  font-size: 37px;
+  	  margin-bottom: 15px;
+    }
+    
+    /* h4 within content2 */
+    #h4Title {
+      	padding-left: 30%;	
+    }
+    
+    /* button within content2 - leads to projects further down */
+    #frontBtn {
+  	  position: relative;
+      left: 34%;
+      margin-top: 5%;
+      color: #2c3e50;
+      background-color: white;
+      border: 1px solid #95a1aa;
+      z-index: 1;
+    }
+    
+/* Index.html row - each project */
+.projectDiv {
+	font-size: 55px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+    
+/* Refers to the images of the projects in Index.html */
+.projectImage {
 	width: 100%;
 	border: 1px solid silver;
 	padding: 4px;
 	height: 340px;
 	margin-bottom: 15px;
+}    
+
+/* ul for each project */
+.projectUl {
+	font-size: 18px;
+	padding-left: 135px;
+	text-align: left;
 }
 
-#logosImg {
-	width: 100px;
-	height: 100px;
-	display: block;
-	float: left;
-	margin-right: 10px;
-	margin-top: 5px;
-	padding: 2px;
-}
+/* ----------------------------------------------*/
+/* ----------------About.html--------------------*/
+/* ----------------------------------------------*/
 
-#frontUpperDiv {
-	color: #2c3e50;
-	background-color: #ecf0f1;
-	height: 85vh;
-	margin-bottom: 55px;
-}
-
-#uppermostDiv {
+/* Div in about.html page */
+#div1About {
 	color: #2c3e50;
 	background-color: #ecf0f1;
 	height: 115vh;
 }
 
-#frontBtn {
-	position: relative;
-    left: 34%;
-    margin-top: 5%;
-    color: #2c3e50;
-    background-color: white;
-    border: 1px solid #95a1aa;
-    z-index: 1;
-}
+  /* Content within uppermostDiv  */
+  .content2 {
+      color: #3d4247;
+      width: 51%;
+      position: relative;
+      top: 85px;
+      left: 115px;
+      font-family: 'Roboto Mono', monospace;
+  }
+   
+   /* Header within content */
+   #h1About {
+  	  font-size: 37px;
+  	  margin-bottom: 15px;
+    }
 
-hr {
-	border-top: 1px solid black;
-} 
+  /* Logo images in about.html page */  
+  #logoImg {
+  	width: 100px;
+  	height: 100px;
+  	display: block;
+  	float: left;
+  	margin-right: 10px;
+  	margin-top: 5px;
+  	padding: 2px;
+  }
 
-#roundPic {
-	width: 18%;
+  /* Round pic in about.html page */
+  #roundPic {
+	  width: 18%;
     height: 58%;
     position: relative;
     top: -340px;
@@ -57,84 +147,35 @@ hr {
     border-radius: 50%;
     border: 1px solid black;
     padding: 5px;
+  }
+  
+/* ----------------------------------------------*/
+/* --------------Contact.html--------------------*/
+/* ----------------------------------------------*/
+
+/* Upper div in contact page */
+#div1Contact {
+	color: #2c3e50;
+	background-color: #ecf0f1;
+	height: 115vh;
 }
 
-tr {
-   line-height: 25px;
-   min-height: 25px;
-   height: 25px;
-}
-
-.navbar-inverse {
-	background: white;
-	margin-bottom: 0;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-	color: #95a1aa;
-}
-
-.navbar-inverse .navbar-brand {
-	color: #95a1aa;
-}
-
-#jumboH1 {
-	font-size: 37px;
-	margin-bottom: 15px;
-}
-
-#hikesterh1 {
-	font-size: 55px;
-	text-align: center;
-	padding-bottom: 10px;
-}
-
-#hikesterul {
-	font-size: 18px;
-	padding-left: 135px;
-	text-align: left;
-}
-
-.content {
-    color: #3d4247;
-    width: 51%;
-    position: relative;
-    top: 85px;
-    left: 115px;
-    font-family: 'Roboto Mono', monospace;
-}
-
-.content2 {
-    color: #3d4247;
-    width: 58%;
-    position: relative;
-    top: 105px;
-    left: 22.5%;
-    font-family: 'Roboto Mono', monospace;
-}
-
-.content4 {
-    color: #3d4247;
-    width: 58%;
-    position: relative;
-    top: 105px;
-    left: 22.5%;
-    font-family: 'Roboto Mono', monospace;
-}
-
-#jumboH2 {
-	font-size: 37px;
-	margin-bottom: 15px;
-	padding-left: 30%;
-}
-
-#frontH4 {
-	padding-left: 30%;	
-}
-
-.fa {
-	margin-right: 8px;
-}
+  /* Content within upperDivContact */
+  .content3 {
+      color: #3d4247;
+      width: 58%;
+      position: relative;
+      top: 105px;
+      left: 22.5%;
+      font-family: 'Roboto Mono', monospace;
+  }
+  
+  /* h1 within content4 */
+  #h1Contact {
+  	font-size: 37px;
+  	margin-bottom: 15px;
+  	padding-left: 30%;
+  }
 
 
 /* STARS*/
