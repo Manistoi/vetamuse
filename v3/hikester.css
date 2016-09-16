@@ -1,0 +1,26 @@
+body {
+	background: url(https://hd.unsplash.com/photo-1464207687429-7505649dae38) no-repeat center center fixed;;
+	background-size: 100% 130%;
+	font-family: 'Rokkitt', serif;
+}
+		
+#content {
+	text-align: center;
+	padding-top: 5%;
+	padding-left: 1%;
+}
+
+h1 {
+	font-size: 10em;
+	color: black;
+}
+
+h3 {
+	font-size: 48px;
+	margin-top: -12px;
+	color: white;
+}
+
+hr {
+	width: 75%;
+}

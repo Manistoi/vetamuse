@@ -1,0 +1,259 @@
+/* ----------------------------------------------*/
+/* -----------ALL HTML DOCS----------------------*/
+/* ----------------------------------------------*/
+
+/* Encompases all html docs*/
+body {
+	padding-top: 30px;
+  font-family: 'Roboto Mono', monospace; /* from Google fonts */
+}
+
+/* Refers to navbar that is present in index.html, about.html, contact.html */
+.navbar-inverse {
+  	background: white;
+  	margin-bottom: 0;
+  }
+  
+  /* Navbar logo (left side) */
+  .navbar-inverse,
+  .navbar-brand {
+  	color: #95a1aa;
+  }
+  
+  /* Navbar logo - when hover */
+  .navbar > .container > .navbar-header > .navbar-brand:hover {
+  	color: black;
+  }
+  
+  /* anchor tags within li's within the navbar */
+  .navAnchor {
+  	color: #95a1aa;
+  	font-size: 15px;
+  }
+  
+  /* Navbar anchor tags within the list - when hovering over them */
+  .navbar-collapse > .nav > li > .navAnchor:hover { 
+     color: black; 
+  }
+  
+  /* Horizontal rule */
+  hr {
+  	border-top: 1px solid black;
+  } 
+
+/* ----------------------------------------------*/
+/* --------------Index.html----------------------*/
+/* ----------------------------------------------*/
+
+/* Div that contains front page (index.html) content and stars animation */
+#indexDiv1 {
+	color: #2c3e50;
+	background-color: #ecf0f1;
+	height: 85vh; /* 1vh = 1% of browser window height */
+	margin-bottom: 130px;
+}
+
+  /* content that frontUpperDiv encompasses except for the stars animation part */
+  .content1 {
+      color: #3d4247;
+      width: 58%;
+      position: relative;
+      top: 105px;
+      left: 22.5%;
+      font-family: 'Roboto Mono', monospace;
+  }
+    
+    /* h1 within content2 */
+    #h1Title {
+  	  font-size: 37px;
+  	  margin-bottom: 15px;
+    }
+    
+    /* h4 within content2 */
+    #h4Title {
+      	padding-left: 30%;	
+    }
+    
+    /* button within content2 - leads to projects further down */
+    #frontBtn {
+  	  position: relative;
+      left: 34%;
+      margin-top: 5%;
+      color: #2c3e50;
+      background-color: white;
+      border: 1px solid #95a1aa;
+      z-index: 1;
+    }
+    
+    /* when hovering over frontBtn */
+    #frontBtn:hover {
+      color: black;
+      border: 2px solid black;
+    }
+    
+/* Index.html row - each project */
+.projectDiv {
+	font-size: 55px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+    
+/* Refers to the images of the projects in Index.html */
+.projectImage {
+	width: 100%;
+	border: 1px solid silver;
+	padding: 4px;
+	height: 340px;
+	margin-bottom: 15px;
+}    
+
+/* ul for each project */
+.projectUl {
+	font-size: 18px;
+	padding-left: 135px;
+	text-align: left;
+}
+
+/* ----------------------------------------------*/
+/* ----------------About.html--------------------*/
+/* ----------------------------------------------*/
+
+/* Div in about.html page */
+#div1About {
+	color: #2c3e50;
+	background-color: #ecf0f1;
+	height: 115vh;
+}
+
+  /* Content within uppermostDiv  */
+  .content2 {
+      color: #3d4247;
+      width: 51%;
+      position: relative;
+      top: 85px;
+      left: 115px;
+      font-family: 'Roboto Mono', monospace;
+  }
+   
+   /* Header within content */
+   #h1About {
+  	  font-size: 37px;
+  	  margin-bottom: 15px;
+    }
+
+  /* Logo images in about.html page */  
+  #logoImg {
+  	width: 100px;
+  	height: 100px;
+  	display: block;
+  	float: left;
+  	margin-right: 10px;
+  	margin-top: 5px;
+  	padding: 2px;
+  }
+
+  /* Round pic in about.html page */
+  #roundPic {
+	  width: 18%;
+    height: 58%;
+    position: relative;
+    top: -340px;
+    left: 25.2%;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+/* ----------------------------------------------*/
+/* --------------Contact.html--------------------*/
+/* ----------------------------------------------*/
+
+/* Upper div in contact page */
+#div1Contact {
+	color: #2c3e50;
+	background-color: #ecf0f1;
+	height: 115vh;
+}
+
+  /* Content within upperDivContact */
+  .content3 {
+      color: #3d4247;
+      width: 58%;
+      position: relative;
+      top: 105px;
+      left: 22.5%;
+      font-family: 'Roboto Mono', monospace;
+  }
+  
+  /* h1 within content4 */
+  #h1Contact {
+  	font-size: 37px;
+  	margin-bottom: 15px;
+  	padding-left: 30%;
+  }
+
+
+/* STARS*/
+/* STARS*/
+/* STARS*/
+	
+#space, .stars {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.stars {
+  background-image: 
+    radial-gradient(2px 2px at 20px 30px, #2c3e50, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 40px 70px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 50px 160px, #ddd, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 90px 40px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 130px 80px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 160px 120px, #ddd, rgba(0,0,0,0));
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  animation: zoom 5s infinite;
+  opacity: 1;
+}
+
+.stars:nth-child(1) {
+  background-position: 50% 50%;
+  animation-delay: 0s;
+}
+.stars:nth-child(2) {
+  background-position: 20% 60%;
+  animation-delay: 1s;
+}
+.stars:nth-child(3) {
+  background-position: -20% -30%;
+  animation-delay: 2s;
+}
+.stars:nth-child(4) {
+  background-position: 40% -80%;
+  animation-delay: 3s;
+}
+.stars:nth-child(5) {
+  background-position: -20% 30%;
+  animation-delay: 4s;
+}
+
+@keyframes zoom {
+  0% {
+    opacity: 1;
+    transform: scale(0.5);
+    animation-timing-function: ease-in;
+  } 
+  85% {
+    opacity: 1;
+    transform: scale(2.8);
+    animation-timing-function: linear;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(3.5);
+  }
+}
