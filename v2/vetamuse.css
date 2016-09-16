@@ -15,10 +15,14 @@ body {
 }
 
 /* anchor tags within li's within the navbar */
-.navbar-inverse .navbar-nav,
-li,
-a {
+.navAnchor {
 	color: #95a1aa;
+	font-size: 15px;
+}
+
+li > .navAnchor:hover { /* hover is a pseudoclass */
+   color: black; 
+   text-decoration: underline;
 }
 
 /* Navbar logo (left side) */
@@ -26,6 +30,12 @@ a {
 .navbar-brand {
 	color: #95a1aa;
 }
+
+.navbar-inverse,
+.navbar-brand:hover {
+	color: black;
+}
+
 
 /* Horizontal rule */
 hr {
@@ -41,7 +51,7 @@ hr {
 	color: #2c3e50;
 	background-color: #ecf0f1;
 	height: 85vh; /* 1vh = 1% of browser window height */
-	margin-bottom: 55px;
+	margin-bottom: 130px;
 }
 
   /* content that frontUpperDiv encompasses except for the stars animation part */

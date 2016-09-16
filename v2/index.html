@@ -16,14 +16,13 @@
         <div class="container">
             <div class="navbar-header"><button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-nav-demo" data-toggle="collapse" type="button">
                 <span class="sr-only">Toggle navigation</span>
-                </button><a class="navbar-brand" href="#">Manuel Stoilov</a>
+                </button><a class="navbar-brand" href="http://vetamuse.com">Manuel Stoilov</a>
             </div>
             
-            <div class="collapse navbar-collapse" id="bs-nav-demo">
+            <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                	<li><a href="http://vetamuse.com">Home |</a></li>
-                	<li><a href="about.html">About |</a></li>
-                	<li><a href="contact.html">Contact |</a></li>
+                	<li><a class="navAnchor" href="about.html">About |</a></li>
+                	<li><a class="navAnchor" href="contact.html">Contact |</a></li>
                 </ul>
             </div>
         </div>
@@ -34,7 +33,7 @@
             <h1 id="h1Title"><strong>Responsive Front-end Development</strong></h1>
             <h4 id="h4Title">HTML · CSS · JavaScript</h4> <!-- The dot between words is called an interpunct (multiply in math) -->
             <hr>
-            <a class="btn btn-primary btn-lg" id="frontBtn" href="#hikesterh1">View Portfolio</a>
+            <a class="btn btn-primary btn-lg" id="frontBtn" href="#contain">View Portfolio</a>
         </div>
         <div id="space"> <!-- Stars animation -->
           <div class="stars"></div>
@@ -45,7 +44,7 @@
         </div>
     </div>
     
-    <div class="container">
+    <div class="container" id="contain"> <!-- added id to link to container from frontBtn -->
         <div class="row projectDiv">
             <div class="col-lg-6 col-md-6 col-md-6"><a href="https://ancient-hollows-22789.herokuapp.com/">
                 <img class="projectImage" alt="A campfire with a title that reads 'Welcome to Yelpcamp'" src="myPics/yelpcamp.jpg" /></a>
